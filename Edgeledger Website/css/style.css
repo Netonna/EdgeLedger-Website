@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar {
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 0.8rem;   
+    max-width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+
+}
+
+.logo {
+    color: #ffffff;
+    font-size:1.7rem;
+}
+
+.logo span {
+    color: #93CB52;
+}
+
+.menu {
+    display: flex; 
+    font-size: 1.1rem;
+}
+
+.menu li {
+    padding: 0.9rem;
+}
+
+.menu li:hover {
+    background-color: #93CB52;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    
+}
+.specialli:hover { 
+    font-size: 1.2rem !important;
+    padding: 0.8rem 0.73rem !important;
+
+    
+}
+
+ 
+/* Showcase */
+
+#show {
+    background: url(../showcase.jpg) no-repeat center center/cover;
+    color: #ffffff;
+    height: 100vh;
+    
+    
+}
+
+.showcase {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   padding: -3rem 3rem;
+   background-color: rgba(0, 0, 0, .4);
+   
+}
+
+.showcase h1 {
+    font-size: 4.4rem;
+    margin-bottom: 1rem;
+}
+
+.showcase p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.showcase a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #93CB52;
+    padding:  0.5rem 1.6rem;
+    border-radius: 5px; 
+}
+
+.showcase a:hover {
+    background-color: #70a826; 
+    color: black;
+}
+
+#what {
+    background-color: #ffffff;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.what {
+    color: #333;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    
+}
+.what span {
+    color: #93cb52;
+
+}
+
+#whatwedo {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100vw;
+
+}
+
+#detail1, #detail2, #detail3 {
+    width: 15rem;
+    text-align: center;
+    
+    
+}
+
+#detail1 h1, #detail2 h1, #detail3 h1 {
+    font-size: 1.38rem;
+    margin-bottom: 1.2rem;
+}
